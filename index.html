@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Parallax</title>
+
+	<!-- Style -->
+	<link rel="stylesheet" href="./css/style.css">
+	<!-- Scroll -->
+	<script src="./libs/gsap/gsap.min.js" defer></script>
+	<script src="./libs/gsap/ScrollTrigger.min.js" defer></script>
+	<script src="./libs/gsap/ScrollSmoother.min.js" defer></script>
+	<!-- Script -->
+	<script src="./js/script.js" defer></script>
+
+</head>
+<body>
+	<div class="wrapper_to_gsap"> <!-- Wrapper block for work GSAP -->
+		<div class="content_to_gsap"> <!-- Content block for work GSAP -->
+
+			<header class="header">
+				<div class="header__layers">
+					<div class="header__content">
+						<h2 class="header__title">Welcome to Parallax</h2>
+						<p class="header__subtitle">Fairy Forest</p>
+					</div>
+					<div class="header__layer header__layer_bg" style="background-image: url(./img/layer-base.png);"></div>
+					<div class="header__layer header__layer_middle" style="background-image: url(./img/layer-middle.png);"></div>
+					<div class="header__layer header__layer_front" style="background-image: url(./img/layer-front.png);"></div>
+				</div>
+			</header>
+		
+			<main class="main" style="background-image: url(./img/dungeon.jpg);">
+				<div class="main__content">
+					<h2 class="main__title">To be continued</h2>
+					<p class="main__subtitile">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident fugiat ea, quaerat perspiciatis officiis eveniet. Beatae ad vitae amet animi natus, explicabo at, rem molestiae cum impedit doloribus eum consequuntur. Cum, officia.</p>
+				</div>
+				<p class="main__copy">© Develop Litvinov</p>
+			</main>
+
+		</div>
+	</div>
+</body>
+</html>
